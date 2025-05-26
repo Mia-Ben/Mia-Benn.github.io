@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team</title>
+    <style>
+        body {
+
+            nav {
+            background-color: #3895;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .container {
+            padding-top: 80px;
+            width: 90%;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .team-member {
+            background-color: gray;
+            padding: 30px;
+            margin: 25px 0;
+
+        }
+
+        .team-member img {
+            float: left;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .bio {
+            overflow: hidden;
+        }
+
+        .bio h3 {
+            margin: 0 0 10px 0;
+
+        }
+
+        .bio p {
+            margin: 0;
+
+        }
+
+        @media (max-width: 600px) {
+            .team-member img {
+                float: none;
+                display: block;
+                margin: 0 auto 15px auto;
+            }
+
+            .bio {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="Team_Page.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Team Member 1 -->
+        <div class="team-member">
+            <img src="Jane.jpeg" alt="Team Member 1">
+            <div class="bio">
+            </p>
+            <h3>Jane</h3>
+            <p>
+                The Brains of the team.
+            </p>
+        </div>
+    </div>
+
+    <!-- Team Member 2 -->
+    <div class="team-member">
+        <img src="Raymond.jpg" alt="Team Member 2">
+        <div class="bio">
+            <h3>Raymond</h3>
+            <p>
+                The One who comes up with ideas.
+            </p>
+        </div>
+    </div>
+
+    <!-- Team Member 3 -->
+    <div class="team-member">
+        <img src="Ella.jpg" alt="Team Member 3">
+        <div class="bio">
+            <h3>Ella</h3>
+            <p>
+                The Sporty one.
+            </p>
+        </div>
+    </div>
+
+    <!-- Team Member 4 -->
+    <div class="team-member">
+        <img src="Michael.jpg" alt="Team Member 4">
+        <div class="bio">
+            <h3>Michael</h3>
+            <p>
+                The Food&Games expert.
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
