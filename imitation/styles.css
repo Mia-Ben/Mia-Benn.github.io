@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project {
+  position: relative;
+  width: 300px;
+}
+
+/* Image Base Style */
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+/* Butterfly */
+.shadow-effect img {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Dinosaur */
+.gradient-border img {
+  border: 6px solid;
+  border-image: linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f, #f0f) 1;
+}
+
+/* Penguins */
+.grayscale img {
+  filter: grayscale(100%);
+}
+
+/* Seagull */
+.blur img {
+  filter: blur(4px);
+}
+
+/* Theater Stage */
+.sepia img {
+  filter: sepia(100%);
+}
+
+/* Football Field + Overlay */
+.football-field {
+  position: relative;
+}
+
+.football-field .field {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.football-field .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; /* adjust as needed */
+  opacity: 0.7;
+  pointer-events: none;
+}
